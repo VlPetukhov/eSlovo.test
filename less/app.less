@@ -1,0 +1,77 @@
+@sectionBorderColor: rgba(255,255,255, 0.75);
+
+body {
+   margin-top: 60px;
+  background: url("/images/backgrounds/gold_scale.png") top center;
+  padding: 0 4px;
+}
+.m-t-5 {
+  margin-top: 5px;
+}
+
+.left-main-image {
+  max-width: 40%;
+  height: auto;
+  display: block;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+section .container, section .container-fluid {
+//  background: url("/images/backgrounds/gold_scale_blur.png") top center;
+  background-color: #fff;
+  border-top:    1px solid lighten(@sectionBorderColor, 12.5%);
+  border-left:  1px solid lighten(@sectionBorderColor, 12.5%);
+  border-right:   1px solid darken(@sectionBorderColor, 12.5%);
+  border-bottom: 1px solid darken(@sectionBorderColor, 12.5%);
+  border-radius: 11px;
+  margin-bottom: 10px;
+  padding: 0;
+}
+section .container .content-wrapper, section .container-fluid .content-wrapper {
+  border-top: 1px solid darken(@sectionBorderColor, 12.5%);
+  border-left: 1px solid darken(@sectionBorderColor, 12.5%);
+  border-right: 1px solid lighten(@sectionBorderColor, 12.5%);
+  border-bottom: 1px solid lighten(@sectionBorderColor, 12.5%);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+
+
+/* Old mobile */
+@media screen and (max-width: 320px) {
+}
+
+/* Mobile */
+@media screen and (min-width: 320px) {
+  h1 {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+
+}
+
+/* Modern mobile */
+@media screen and (max-width: 640px) {
+
+}
+
+/* Tabs */
+@media screen and (max-width: 960px) {
+
+}
+
+/* Notebook standard screen */
+@media screen and (max-width: 1300px) {
+
+}
+/* Full HD */
+@media screen and (max-width: 1856px) {
+
+}
