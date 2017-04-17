@@ -10,12 +10,13 @@
     <link rel="alternate" href="https://e-slovo.com/ua/" />
     <link rel="shortcut icon" href="/favicon.ico">
 
+    <link rel="stylesheet" href="/css/pure/pure-min.css" type="text/css" />
     <!--[if lte IE 9]>
-    <link rel="stylesheet" href="/css/lteIE9/main.css" type="text/css"  />
-    <link rel="stylesheet" href="/css/lteIE9/nav.css" type="text/css"  />
+    <link rel="stylesheet" href="/css/lteIE9/main.css" type="text/css" />
+    <link rel="stylesheet" href="/css/lteIE9/nav.css" type="text/css" />
     <![endif]-->
     <!--[if !IE]> -->
-    <link rel="stylesheet" href="/css/main.css" type="text/css"  />
+    <link rel="stylesheet" href="/css/main.css" type="text/css" />
     <!-- <![endif]-->
     <title>Title</title>
     <!--[if lt IE 9]>
@@ -31,6 +32,71 @@
 <!--[if gt IE 9]><!-->
 <body class="responsive global-nav">
 <!--<![endif]-->
+    <div class="global-nav">
+        <header>
+            <div class="pure-g">
+                <div class="pure-u-1">
+                    <div id="eslovo-logo full-height">
+                        <a href="/" aria-label="eSlovo Logo">eSlovo</a>
+                    </div>
+                </div>
+            </div>
+            <ul class="navigation full-height">
+                <li class="option-link">
+                    <a id="option" class="option-trigger" href="#" title="Option">
+                        <span class="full-text">
+                            Option long
+                        </span>
+                        <span class="short-text">
+                            Option short
+                        </span>
+                    </a>
+                </li>
+                <li class="register-link">
+                    <a id="register"
+                       rel="nofollow"
+                       href="/register/"
+                       title="Registration"
+                       role="button">
+                        Registration
+                    </a>
+                </li>
 
+                <li class="sign-in-link">
+                    <a id="sign-in"
+                       rel="nofollow"
+                       href="/signin/"
+                       title='Войти'
+                       role="button">
+                        Login
+                    </a>
+                </li>
+            </ul>
+        </header>
+        <div class="under-global-nav">
+
+        </div>
+    </div>
+
+    <div id="content" role="main">
+        <div class="pure-g">
+            <div class="main-banner">
+                <picture>
+                    <!--[if IE 9]><video style="display: none;"><![endif]-->
+                    <source srcset="/images/img.jpg, /images/img2x.jpg 2x, /images/img3x.jpg 3x" media="(max-width: 479px)">
+                    <!--[if IE 9]></video><![endif]-->
+                    <img src="/images/img.jpg" srcset="/images/img.jpg, /images/img2x.jpg 2x" alt="">
+                </picture>
+                <div class="vesta-hp-search-header-inner vertical-center">
+                    <div class="vesta-hp-search-header-title">
+                        <h1 class="vesta-hp-search-header-title-text">Whoever you are, find whatever you're into</h1>
+                    </div>
+                </div>
+                <div class="vesta-hp-search-header-credits position-absolute position-right position-bottom mb-xs-1 mb-md-2 rounded">
+                    <a class="vesta-hp-search-header-credit" href="https://www.etsy.com/featured/unique-discoveries-row?anchor_listing_id=191364488&ref=hph" aria-hidden="true">Из магазина <span class="b">Barruntando</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
