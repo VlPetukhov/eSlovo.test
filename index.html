@@ -1,8 +1,111 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
 <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="canonical" href="https://e-slovo.com/" />
+    <link rel="alternate" href="https://e-slovo.com/ru/" />
+    <link rel="alternate" href="https://e-slovo.com/ua/" />
+    <link rel="shortcut icon" href="/favicon.ico">
+
+    <link rel="stylesheet" href="/css/pure/pure-min.css" type="text/css" />
+    <!--[if lte IE 9]>
+    <link rel="stylesheet" href="/css/lteIE9/main.css" type="text/css" />
+    <link rel="stylesheet" href="/css/lteIE9/nav.css" type="text/css" />
+    <![endif]-->
+    <!--[if !IE]> -->
+    <link rel="stylesheet" href="/css/main.css" type="text/css" />
+    <!-- <![endif]-->
+    <title>Title</title>
     <!--[if lt IE 9]>
     <script src="/js/polyfill/html5shiv.js" type="text/javascript" crossorigin></script>
     <![endif]-->
-</head>
+<!--[if lte IE 8]>
+<body class="responsive landing lte-ie8">
+<![endif]-->
+<!--[if IE 9]>
+<body class="responsive landing ie9">
+<![endif]-->
+<!--[if gt IE 9]><!-->
+<body class="responsive landing">
+<!--<![endif]-->
+    <div class="global-nav">
+        <header>
+            <div class="pure-g container">
+                <div class="pure-u-1">
+                    <div id="eslovo-logo full-height">
+                        <a href="/" aria-label="eSlovo Logo">eSlovo</a>
+                    </div>
+                </div>
+            </div>
+            <ul class="navigation full-height">
+                <li class="option-link">
+                    <a id="play-center" class="option-trigger" href="#" title="Option">
+                        <span class="full-text">
+                            Go to Play Center
+                        </span>
+                        <span class="short-text">
+                            Play Center
+                        </span>
+                    </a>
+                </li>
+                <li class="option-link">
+                    <a id="user-cabinet" class="option-trigger" href="#" title="User Cabinet">
+                        <span class="full-text">
+                            Go to Play Center
+                        </span>
+                        <span class="short-text">
+                            Play Center
+                        </span>
+                    </a>
+                </li>
+                <li class="register-link">
+                    <a id="register"
+                       rel="nofollow"
+                       href="/register/"
+                       title="Registration"
+                       role="button">
+                        Registration
+                    </a>
+                </li>
+
+                <li class="sign-in-link">
+                    <a id="sign-in"
+                       rel="nofollow"
+                       href="/signin/"
+                       title='Войти'
+                       role="button">
+                        Login
+                    </a>
+                </li>
+            </ul>
+        </header>
+        <div class="under-global-nav">
+
+        </div>
+    </div>
+
+    <div id="content" role="main">
+        <div class="pure-g">
+            <div class="main-banner">
+                <picture>
+                    <!--[if IE 9]><video style="display: none;"><![endif]-->
+                    <source srcset="/images/img.jpg, /images/img2x.jpg 2x, /images/img3x.jpg 3x" media="(max-width: 479px)">
+                    <!--[if IE 9]></video><![endif]-->
+                    <img src="/images/img.jpg" srcset="/images/img.jpg, /images/img2x.jpg 2x" alt="">
+                </picture>
+                <div class="baner-hover-text">
+                    <div class="baner-title">
+                        <h1>Banner text</h1>
+                    </div>
+                    <div class="baner-text">
+                        <span>Banner text</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
